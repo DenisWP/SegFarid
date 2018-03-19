@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:srcCompat="@mipmap/ic_launcher"
-        android:layout_margin="20dp"/>
+        android:layout_margin="16dp"/>
 
     <EditText
         android:id="@+id/edtCadEmail"
@@ -32,7 +32,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:hint="@string/senhaCad"
-        android:layout_margin="13dp"/>/>
+        android:layout_margin="13dp"/>
 
     <EditText
         android:id="@+id/edtCadSenhaConf"
