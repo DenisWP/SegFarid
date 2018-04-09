@@ -21,4 +21,45 @@
     <string name="cadRelatado">Nome do Relatado</string>
     <string name="cadDescricao">Informe a ocorrência</string>
     <string name="btnEnviar">Enviar Ocorrência</string>
+
+    <string-array name="spnTiposRelatados">
+        <item>ACIDENTE</item>
+        <item>INCIDENTE</item>
+        <item>CONDIÇÃO INSEGURA</item>
+        <item>ATO INSEGURA</item>
+    </string-array>
+
+    <string-array name="spnLocalOcorrencia">
+        <item>REVENDA JANAUBA - NORTE</item>
+        <item>REVENDA UNAÍ - NOROESTE</item>
+        <item>REVENDA LAFAIETE</item>
+        <item>REVENDA SÃO JOÃO DEL REI</item>
+        <item>REVENDA CONSELHEIRO LAFAIETE</item>
+        <item>REVENDA MARIANA</item>
+        <item>REVENDA PONTE NOVA</item>
+        <item>REVENDA MANHUAÇU</item>
+
+        <item>SUP. BEIRA RIO</item>
+        <item>SUP. MATRIZ</item>
+        <item>SUP. PRAIA</item>
+
+        <item>CENTRAL DE DISTRIBUIÇÃO</item>
+        <item>MATERIAL DE CONSTRUÇÃO</item>
+        <item>MÓVEIS</item>
+        <item>MAGAZINE</item>
+        <item>MAISCOR</item>
+
+        <item>CENTRAL DE ROTEIRIZAÇÃO</item>
+        <item>CONTABILIDADE</item>
+        <item>CRÉDITO E COBRANÇA</item>
+        <item>DEPARTAMENTO PESSOAL</item>
+        <item>DIRETORIA</item>
+        <item>FINANCEIRO</item>
+        <item>MARKETING</item>
+        <item>PUXADA</item>
+        <item>RECURSOS HUMANOS</item>
+        <item>TI</item>
+    </string-array>
+
+
 </resources>

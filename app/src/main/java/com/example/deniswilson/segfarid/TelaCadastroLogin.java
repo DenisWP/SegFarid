@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class TelaCadastro extends AppCompatActivity {
+public class TelaCadastroLogin extends AppCompatActivity {
 
     EditText edtEmail, edtSenhaCad, edtSenhaConf, edtTelefone;
     Button btnCadastrar;
