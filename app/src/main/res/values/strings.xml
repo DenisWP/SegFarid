@@ -2,6 +2,7 @@
     <string name="app_name">SegFarid</string>
 
     <!-- Tela de Login-->
+    <string name="nomeFunc">Nome</string>
     <string name="email">E-mail</string>
     <string name="Senha">Senha</string>
     <string name="Entrar">ENTRAR</string>
@@ -14,4 +15,10 @@
     <string name="telefoneCad">Telefone</string>
     <string name="cadastrarCad">CADASTRAR</string>
 
+    <!-- Tela - Cadastro da Ocorrência -->
+
+    <string name="cadRelator">Nome do Relator</string> <!-- Puxar direto do cadastro -->
+    <string name="cadRelatado">Nome do Relatado</string>
+    <string name="cadDescricao">Informe a ocorrência</string>
+    <string name="btnEnviar">Enviar Ocorrência</string>
 </resources>

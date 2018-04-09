@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.deniswilson.segfarid.TelaCadastro">
+
+
+    <TextView
+        android:id="@+id/txtRelator"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/cadRelator"
+        android:gravity=""
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/edtCadRelatado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/cadRelatado"/>
+
+    <Spinner
+        android:id="@+id/spnTipoRelato"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"/>
+
+    <Spinner
+        android:id="@+id/spnLocalOcorrencia"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:inputType="textMultiLine"
+        android:lines="20"
+        android:hint="@string/cadDescricao"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnEnviar"
+        android:layout_margin="10dp"/>
+
+
+</LinearLayout>
