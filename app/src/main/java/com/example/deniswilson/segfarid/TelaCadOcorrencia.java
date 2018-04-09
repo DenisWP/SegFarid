@@ -27,7 +27,5 @@ public class TelaCadOcorrencia extends AppCompatActivity {
         TipoRelato = (Spinner) findViewById(R.id.spnTipoRelato);
         LocalOcorrencia = (Spinner) findViewById(R.id.spnLocalOcorrencia);
         enviarDados = (Button) findViewById(R.id.btnEnviar);
-
-
     }
 }
