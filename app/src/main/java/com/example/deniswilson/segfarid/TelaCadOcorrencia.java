@@ -25,6 +25,7 @@ public class TelaCadOcorrencia extends AppCompatActivity {
         NomeRelator = (TextView) findViewById(R.id.txtRelator);
         Relatado = (EditText) findViewById(R.id.edtCadRelatado);
         Ocorrencia = (EditText) findViewById(R.id.edtOcorrencia);
+        enviarDados = (Button) findViewById(R.id.btnEnviar);
 
 
         TipoRelato = (Spinner) findViewById(R.id.spnTipoRelato);
@@ -36,6 +37,6 @@ public class TelaCadOcorrencia extends AppCompatActivity {
         ArrayAdapter<CharSequence> adpLocal = ArrayAdapter.createFromResource(this,
                 R.array.spnLocalOcorrencia, android.R.layout.simple_spinner_item);
 
-        enviarDados = (Button) findViewById(R.id.btnEnviar);
+
     }
 }
