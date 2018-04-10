@@ -2,6 +2,7 @@
     <string name="app_name">SegFarid</string>
 
     <!-- Tela de Login-->
+
     <string name="nomeFunc">Nome</string>
     <string name="email">E-mail</string>
     <string name="Senha">Senha</string>
@@ -9,6 +10,7 @@
     <string name="CadastrarUsu">Não tem usuário ? Clique aqui !</string>
 
     <!-- Tela de Cadastro-->
+
     <string name="emailCad">E-mail</string>
     <string name="senhaCad">Senha</string>
     <string name="senhaConf">Confirme sua senha</string>
